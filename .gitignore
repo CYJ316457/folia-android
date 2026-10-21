@@ -1,0 +1,36 @@
+# Gradle / Kotlin build output
+.gradle/
+.kotlin/
+build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+lint-results*.html
+lint-results*.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Repo root build files at module level are kept; nested build dirs are ignored above.
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local verification screenshots (UI automation scratch output)
+shots/
+
+# Scratch
+*.log
+*.hprof

@@ -1,0 +1,9 @@
+* text=auto
+
+# Gradle wrapper script must stay LF so it remains executable on Unix hosts
+gradlew text eol=lf
+
+*.bat text eol=crlf
+*.jar binary
+*.mp3 binary
+*.png binary
